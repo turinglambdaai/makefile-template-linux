@@ -1,5 +1,7 @@
 # makefile-template-linux
 
+[![Language](https://img.shields.io/badge/language-C-blue)]
+
 [English](README.md) | [中文](README.zh-CN.md)
 
 A Makefile template for **Linux/macOS** C and C++ projects with automatic source discovery and dependency tracking.
