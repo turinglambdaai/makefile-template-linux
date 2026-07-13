@@ -1,10 +1,10 @@
-# makefile-template-linux
+# Makefile Template for Linux / macOS
 
-[English](README.md) | [中文](README.zh-CN.md)
+一个面向 **Linux/macOS** C/C++ 项目的 Makefile 模板，支持自动源文件发现和依赖追踪。 示例项目将原始二进制文件（`.bin`）转换为 Intel HEX 格式（`.hex`），演示了简洁的扁平化构建体系及自动依赖生成机制。
 
-一个面向 **Linux/macOS** C/C++ 项目的 Makefile 模板，支持自动源文件发现和依赖追踪。
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white)
 
-示例项目将原始二进制文件（`.bin`）转换为 Intel HEX 格式（`.hex`），演示了简洁的扁平化构建体系及自动依赖生成机制。
+[English](README.md) · **中文**
 
 ## 特性
 
@@ -37,7 +37,7 @@ xcode-select --install
 ### 1. 克隆模板
 
 ```bash
-git clone https://github.com/jrtxio/makefile-template-linux.git my-project
+git clone https://github.com/turinglambdaai/makefile-template-linux.git my-project
 cd my-project
 ```
 
@@ -135,3 +135,7 @@ make LDFLAGS="-lm -lpthread"
 - **构建**：`Ctrl+Shift+B` 执行 `make`
 - **清理**：从任务运行器中选择 "Build clean" 任务
 - **调试**：按 `F5` 构建并使用 GDB 调试（传入 `input.bin output.hex` 作为参数，在入口处断点）
+
+## 许可证
+
+本项目暂未包含许可证文件。

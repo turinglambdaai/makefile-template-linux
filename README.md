@@ -1,12 +1,10 @@
-# makefile-template-linux
+# Makefile Template for Linux / macOS
 
-![Language](https://img.shields.io/badge/language-C-blue)
+A Makefile template for **Linux/macOS** C and C++ projects with automatic source discovery and dependency tracking. The example project converts a raw binary file (`.bin`) to Intel HEX format (`.hex`), demonstrating a clean, flat build system with automatic dependency generation.
 
-[English](README.md) | [中文](README.zh-CN.md)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white)
 
-A Makefile template for **Linux/macOS** C and C++ projects with automatic source discovery and dependency tracking.
-
-The example project converts a raw binary file (`.bin`) to Intel HEX format (`.hex`), demonstrating a clean, flat build system with automatic dependency generation.
+**English** · [中文](README.zh-CN.md)
 
 ## Features
 
@@ -39,7 +37,7 @@ xcode-select --install
 ### 1. Clone the template
 
 ```bash
-git clone https://github.com/jrtxio/makefile-template-linux.git my-project
+git clone https://github.com/turinglambdaai/makefile-template-linux.git my-project
 cd my-project
 ```
 
@@ -137,3 +135,7 @@ make LDFLAGS="-lm -lpthread"
 - **Build**: `Ctrl+Shift+B` runs `make`
 - **Clean**: Select the "Build clean" task from the task runner
 - **Debug**: Press `F5` to build and debug with GDB (passes `input.bin output.hex` as arguments, stops at entry)
+
+## License
+
+This project does not currently include a license file.
